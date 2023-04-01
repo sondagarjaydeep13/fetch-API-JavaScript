@@ -33,7 +33,13 @@
       }
     }
   };
+  const containerResume = document.getElementById("containerResume");
+  containerResume.onclick = (e) => {
+    // e.preventDefault()
+    window.open("/assets/img/JaydeepResume.pdf.pdf");
 
+    // console.log("Click");
+  };
   /**
    * Easy on scroll event listener
    */
