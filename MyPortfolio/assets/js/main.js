@@ -33,13 +33,13 @@
       }
     }
   };
-  // const containerResume = document.getElementById("containerResume");
-  // containerResume.onclick = (e) => {
-  //   // e.preventDefault()
-  //   window.open("/assets/img/JaydeepResume.jpg.jpg");
+  const containerResume = document.getElementById("containerResume");
+  containerResume.onclick = (e) => {
+    // e.preventDefault()
+    window.open("./assets/img/JaydeepResume.jpg.jpg");
 
-  //   console.log("Click");
-  // };
+    console.log("Click");
+  };
   /**
    * Easy on scroll event listener
    */
