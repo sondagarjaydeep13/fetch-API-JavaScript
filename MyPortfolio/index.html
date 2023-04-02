@@ -9,11 +9,13 @@
     <meta content="" name="keywords" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
       rel="stylesheet"
     />
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
@@ -38,10 +40,10 @@
 
   </head>
 
-  <body>
+  <body >
     <!-- ======= Mobile nav toggle button ======= -->
-    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-
+    <span class="bi bi-list mobile-nav-toggle d-xl-none navbar-toggler  fa-regular " style="color: #f9efef;" src=""> &#8801</span>
+    
     <!-- ======= Header ======= -->
     <header id="header">
       <div class="d-flex flex-column">
@@ -67,7 +69,7 @@
               >
             </li>
             <li>
-              <a  href="/assets/img/JaydeepResume.jpg.jpg"  class="nav-link scrollto" type="file"     id="containerResume" 
+              <a  href="./assets/img/JaydeepResume.jpg.jpg"  class="nav-link scrollto" type="file"     id="containerResume" 
                 ><i class="bx bx-file-blank"></i> <h4>Resume</h4></a
               >
             </li>
@@ -164,23 +166,29 @@
            
           </div>
 
-                <div class="address">
-                 
-                  <h4>Location:</h4>
-                  <p>Surat,Gujarat</p>
+                <div class="address" >
+                  <div style="display: flex;">
+                  <i class="fa-solid fa-location-dot " style='font-size:24px'></i>
+                  <h4 style="margin-left: 5px;"  class="">  Location</h4>
+                </div>
+                  <p style="margin-left: 22px;">Surat,Gujarat</p>
                 </div>
 
-                <div class="email">
-                 
-                  <h4>Email:</h4>
-                  <p> <a class="text-dark" href="">sondagarjaydeep13@gmail.com</a></p>
-                  
+                <div style="margin-top: 20px;" class="email" >
+                  <div style="display: flex;">
+                    <i class="fa fa-envelope" aria-hidden="true" style='font-size:22px'></i>
+                  <h4 style="margin-left: 5px;"  class="">  Email</h4>
+                </div>
+                  <p style="margin-left: 25px;">sondagarjaydeep13</p>
                 </div>
 
-                <div class="phone">
-                 
-                  <h4 >Call:</h4>
-                  <p>+91 9737594169</p>
+
+                <div style="margin-top: 20px;" class="address" >
+                  <div style="display: flex;">
+                  <i  class="fa fa-phone" aria-hidden="true" style='font-size:24px'></i>
+                  <h4 style="margin-left: 5px;"  class="">  Call</h4>
+                </div>
+                  <p style="margin-left: 22px;">+91 9737594169</p>
                 </div>
 
   
@@ -201,5 +209,6 @@
    
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    
   </body>
 </html>
