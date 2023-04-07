@@ -236,43 +236,85 @@
       <!-- End Skills Section -->
       
       <!-- ======= Contact Section ======= -->
-      <section   id="contact" class=" bg-dark text-white  ">
-        <div class="container " >
-         
-          <div class="section-title">
-           
-            <h2 style="color:azure">Contact</h2>
-        
-          </div>
-              <div style="display: inline-flex;">
-
-                <div style="margin-top: 20px;" class="address ">
-                  <div style="display:flex;">
-                  <i class="fa-solid fa-location-dot " style='font-size:24px'></i>
-                  <h5 style="margin-left: 5px;"  class="">  Location</h5>
+      <section class="bg-warning">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="contact-detail">
+                <div class="section-title">
+                  <h2>Contact-us</h2>
+                 
                 </div>
-                  <p style="margin-left: 22px;">Surat,Gujarat</p>
-                </div>
-                <div style="margin-top: 20px;margin-left: 30px;" class="email" >
-                  <div style="display: flex;">
-                    <i class="fa fa-envelope" aria-hidden="true" style='font-size:22px'></i>
-                  <h5 style="margin-left: 5px;"  class="">  Email</h5>
-                </div>
-                  <p style="margin-left: 25px;">sondagarjaydeep13@gmail.com</p>
-                </div>
-
-                <div style="margin-top: 20px;margin-left: 10px;" class="address" >
-                  <div style="display: flex;">
-                  <i  class="fa fa-phone" aria-hidden="true" style='font-size:24px'></i>
-                  <h5 style="margin-left: 5px;"  class="">  Call</h5>
-                </div>
-                  <p style="margin-left: 22px;">+91 9737594169</p>
-                </div>
-               
+      
+                <ul class="contact-ul">
+                  <li><i class="fa fa-location-dot"></i>Katargam,Surat,Gujarat</li>
+      
+                  <li>
+                    <i class="fa fa-phone"></i>
+                    <a href="#"><b>+91 9737594169</b></a>,
+                  
+                  </li>
+      
+                  <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="#"><b> sondagarjaydeep13@gmail.com</b></a>
+                  </li>
+                </ul>
+      
+                <span>
+                  <a href="#" class="fb"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                </span>
               </div>
+            </div>
+      
+            <div class="col-md-6">
+              <form onsubmit="sendmail();reset();return false;" class="contFrm" >
+                <div class="row">
+                  <div class="col-sm-6">
+                    <input type="text" name="name" id="name" placeholder="Your Name" class="inptFld" required />
+                  </div>
+      
+                  <div class="col-sm-6">
+                    <input type="email" name="email" id="email" placeholder="Email Address" class="inptFld" required />
+                  </div>
+      
+                  <div class="col-sm-6">
+                    <input type="tel" name="phonenum" id="phonenum" placeholder="Phone Number" class="inptFld" required />
+                  </div>
+      
+                  <div class="col-sm-6">
+                    <input type="text" name="subject" id="subject" placeholder="Subject" class="inptFld" required />
+                  </div>
+      
+                  <div class="col-12">
+                    <textarea class="inptFld" id="message" name="message" rows="placeholder="Your Message..." ></textarea>
+                  </div>
+      
+                  <div class="col-12">
+                  <button class="btn btn-success" type="submit">submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+        
+      
+        </div>
+     
              
-      <!-- End Contact Section -->
-    </main>
+     
+    
+  </section>
+     <!-- End Contact Section -->
+
+      <!-- --------------------- jquery----------------------------------- -->
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"> </script>
+
    
 
     

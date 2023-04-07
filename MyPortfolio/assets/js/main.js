@@ -274,3 +274,41 @@
    */
   new PureCounter();
 })();
+
+//************************* Email send************************** */
+
+function sendmail() {
+  var name = $("#name").val();
+  var email = $("#email").val();
+  var phonenum = $("#phonenum").val();
+  var message = $("#message").val();
+  var subject = $("#subject").val();
+
+  var userdata =
+    "name :  " +
+    name +
+    "<br>email  :" +
+    email +
+    "<br>phonenum  :" +
+    phonenum +
+    "<br>subject  :" +
+    subject +
+    "<br>massege  :" +
+    message;
+
+  Email.send({
+    Host: "smtp.elasticemail.com",
+    Username: "sondagarjaydeep13@gmail.com",
+    Password: "99221BA88DFBA906F3457C8E418347F9E9E9",
+    To: "sondagarjaydeep1999@gmail.com",
+    From: "sondagarjaydeep13@gmail.com",
+    Subject: "New mail for contact :" + name,
+    Body: userdata,
+  }).then((message) => {
+    if ((message = "OK")) {
+      alert("message sent success,thanks for contact !!!");
+    } else {
+      alert("Email cant send !!!");
+    }
+  });
+}
