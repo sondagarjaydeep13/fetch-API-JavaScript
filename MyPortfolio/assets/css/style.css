@@ -1322,3 +1322,46 @@ form.contFrm {
     font-size: 16px;
   }
 }
+/* .projectbox {
+  height: 60vh;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #0e2442;
+} */
+.box1 {
+  /* height: 45vh; */
+  /* width: 30%; */
+  border: 2px solid black;
+  margin-left: 20px;
+  position: relative;
+  display: inline-flex;
+  border-radius: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.firstgit {
+  margin-left: 20px;
+  margin-top: 10px;
+  height: 300px;
+  width: 500px;
+}
+.secondgit {
+  margin-left: 20px;
+  height: 300px;
+  width: 500px;
+}
+.thirdgit {
+  height: 300px;
+  width: 500px;
+  margin-left: 20px;
+}
+.footerline {
+  width: 100%;
+  height: 50px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
